@@ -1,5 +1,5 @@
 body {
-    font: 400 15px/1.8 Lato, sans-serif;
+    font: 400 15px/1.8 'Oxygen', sans-serif;
     color: #777;
   }
   h3, h4 {
@@ -89,7 +89,7 @@ body {
     filter: grayscale(100%);
   }  
   .navbar {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Oxygen', sans-serif;
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
