@@ -138,7 +138,7 @@
 <div id="tour" class="bg-1">
   <div class="container">
     <h3 class="text-center">Got a recommendation?</h3>
-    <button class="btn" data-toggle="modal" data-target="#myModal">Recommend a book!</button>
+    <button class="btn" data-toggle="modal" data-target="#myModal"><p class="text-center">RECOMMEND A BOOK!</p></button>
     
     
     
@@ -150,7 +150,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Book recommendation</h4>
+          <h4><span class="glyphicon glyphicon-lock"></span> BOOK RECOMMENDATION</h4>
         </div>
         <div class="modal-body">
             <form role="form">
@@ -165,7 +165,11 @@
                 <div class="form-group">
                   <label for="why"><span class="glyphicon glyphicon-chevron-right"></span>Why? <small>(optional)</small></label>
                   <input type="text" class="form-control" id="title" placeholder="Tell me why you like this book or why you think I'd like it">
-              </div>
+                </div>
+                <div class="form-group">
+                  <label for="name"><span class="glyphicon glyphicon-chevron-right"></span>Recommended by...</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your name here">
+                </div>
             </form>
         </div>
         <div class="modal-footer">
@@ -175,60 +179,6 @@
           <p>Need <a href="#">help?</a></p>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">CHAT WITH ME</h3>
-  <p class="text-center"><em>We love our fans!</em></p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <p>Let's have a conversation.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Rochester, MN</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: (515) 556-6014</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: cora.egherman@gmail.com</p>
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <h3 class="text-center">Thoughts</h3>  
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">On tourism</a></li>
-    <li><a data-toggle="tab" href="#menu1">On materialism</a></li>
-    <li><a data-toggle="tab" href="#menu2">On transportation</a></li>
-  </ul>
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2>Tourism</h2>
-      <p>Uff da.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2>Materialism</h2>
-      <p>Ugh.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h2>Transportation</h2>
-      <p>Public transportation is cool.</p>
     </div>
   </div>
 </div>
